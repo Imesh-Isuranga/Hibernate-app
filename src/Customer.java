@@ -1,7 +1,19 @@
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "customer")
 public class Customer {
+    @Id
+    @Column(name = "Customer_id")
     private long id;
+    @Column(name = "Customer_name")
     private String name;
+    @Column(name = "Customer_address")
     private String address;
+    @Column(name = "Customer_salary")
     private double salary;
 
     public Customer(long id, String name, String address, double salary) {
