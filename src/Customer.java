@@ -1,10 +1,10 @@
 public class Customer {
-    private String id;
+    private Long id;
     private String name;
     private String address;
     private double salary;
 
-    public Customer(String id, String name, String address, double salary) {
+    public Customer(Long id, String name, String address, double salary) {
         this.id = id;
         this.name = name;
         this.address = address;
@@ -14,11 +14,11 @@ public class Customer {
     public Customer() {
     }
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -49,7 +49,7 @@ public class Customer {
     @Override
     public String toString() {
         return "Customer{" +
-                "id='" + id + '\'' +
+                "id=" + id +
                 ", name='" + name + '\'' +
                 ", address='" + address + '\'' +
                 ", salary=" + salary +
