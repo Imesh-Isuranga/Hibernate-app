@@ -1,10 +1,10 @@
 public class Customer {
-    private Long id;
+    private long id;
     private String name;
     private String address;
     private double salary;
 
-    public Customer(Long id, String name, String address, double salary) {
+    public Customer(long id, String name, String address, double salary) {
         this.id = id;
         this.name = name;
         this.address = address;
@@ -18,7 +18,7 @@ public class Customer {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(long id) {
         this.id = id;
     }
 
