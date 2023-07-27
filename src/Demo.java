@@ -89,6 +89,5 @@ public class Demo {
         transaction.commit();
         session.close();
        // sessionFactory.close();
-        //oooo
     }
 }
