@@ -75,7 +75,7 @@ public class Demo {
         System.out.println(list);
     }
 
-    private static void saveCustomer(){
+    private static void saveCustomer() {
         Customer c1 = new Customer(5,"Imesh","Galle",25000);
 
         /*Configuration configuration = new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(Customer.class);
